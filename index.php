@@ -47,7 +47,7 @@
 		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#skills">Skills &amp; strengths</a></li>
 		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#prof">Professional experience</a></li>
 		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#edu">Education, languages</a></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#misc">Hobbies &amp; iscallanea</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#misc">Hobbies &amp; miscallanea</a></li>
 		            <li role="presentation" class="divider"></li>
 		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#about">About this CV</a></li>
 		          </ul>
