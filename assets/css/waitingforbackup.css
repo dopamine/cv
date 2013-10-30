@@ -1,0 +1,49 @@
+
+
+.container-wide {max-width:840px !important;}
+.curri-statement {margin:12px 0;}
+.pagebreakafter {display:none;}
+
+@media only screen and (max-width:590px) {
+	.curri-contactdetails dt {
+		width:120px;
+	}
+	.row {padding-left:12px}
+}
+
+body {background:#fff;}
+
+@media print {
+    body {
+		font-size:@font-size-base-print; 
+    	margin: 0cm !important;
+    }
+    
+    @page {
+        margin: 4cm 3cm 3cm 3cm;
+        orphans:14;
+        widows:14;
+    }
+    
+    .curri-header-logo {margin:24px 0 6px 0;}
+    .curri-header-logo img {display:none;}
+    
+    .container-wide {max-width:768px !important; width:90%;}
+    .curri-statement {padding:24px 42px !important;font-size:1.6em; line-height:1.6em;}
+    
+    h2 { margin:24px 0;}
+    
+    hr {display:none;}
+    
+	.pagebreakbefore {
+		display:block !important;
+		page-break-before:always;
+		height:106px;
+		width:100%;
+	}
+	
+	a[href]:after {
+	    content: none !important;
+	}
+}
+
