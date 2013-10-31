@@ -10,6 +10,7 @@
 	// The commands
 	$commands = array(
 		'echo $PWD',
+		'touch git-deploy-ran',
 		'whoami',
 		'git pull',
 		'git status'/*,
