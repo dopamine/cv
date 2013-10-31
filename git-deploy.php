@@ -11,9 +11,9 @@
 	$commands = array(
 		'echo $PWD',
 		'touch git-deploy-ran',
-		'whoami',
-		'git pull',
-		'git status'/*,
+		'whoami > git-deploy-ran',
+		'git pull >> git-deploy-ran',
+		'git status >> git-deploy-ran'/*,
 		'git submodule sync',
 		'git submodule update',
 		'git submodule status',*/
