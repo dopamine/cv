@@ -205,6 +205,8 @@ ul {
 	
 	@media only screen and (max-width:590px) {
 		margin:auto;
+		position:relative;
+		left:-6px;
 	}
 	
 	@media only screen and (min-width: 590px) and (max-width: 777px) {
@@ -244,10 +246,11 @@ ul {
 
 .curri-mobile-nav {
     display:none;
-    .glyphicon {margin-right:6px;}
     
     @media only screen and (max-width:590px) {
         display:block;
+        
+        .glyphicon {margin-right:6px;}
         
         .dropdown-toggle {
             background-color:#eee;
@@ -273,6 +276,10 @@ ul {
     font-weight:400;
     letter-spacing:0.05em;
     font-size:18px;
+    @media only screen and (max-width:590px) {
+        font-size:@font-size-base*1.1;
+        line-height:1.5em;
+    }
 }
 
 .label {
