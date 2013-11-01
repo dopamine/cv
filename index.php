@@ -43,13 +43,13 @@
 		        <li class="dropdown">
 		          <a id="drop2" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Jump to section <b class="caret"></b></a>
 		          <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#top">Contact details &amp; top</a></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#skills">Skills &amp; strengths</a></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#prof">Professional experience</a></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#edu">Education, languages</a></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#misc">Hobbies &amp; miscallanea</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#top"><span class="glyphicon glyphicon-heart"></span> Contact details &amp; top</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#skills"><span class="glyphicon glyphicon-star"></span> Skills &amp; strengths</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#prof"><span class="glyphicon glyphicon-briefcase"></span> Professional experience</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#edu"><span class="glyphicon glyphicon-book"></span> Education, languages</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#misc"><span class="glyphicon glyphicon-globe"></span> Hobbies &amp; miscallanea</a></li>
 		            <li role="presentation" class="divider"></li>
-		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#about">About this CV</a></li>
+		            <li role="presentation"><a role="menuitem" tabindex="-1" href="#about"><span class="glyphicon glyphicon-bookmark"></span> About this CV</a></li>
 		          </ul>
 		        </li>
 		      </ul>
@@ -585,7 +585,15 @@ if (!empty($_GET['portfolio']) && $_GET['portfolio']=='true') { ?>
 					demoscene gathering websites 2005-2008
 				</h3>
 				<div id='popover-4-content'>
-					
+					<p>
+						I used to be the main organizer of an annual gathering for lovers of digital arts (demoscene subculture) for three consecutive years &mdash;
+						Think three days of competitions and activities for approx. 40 people (mainly involved in game development and computer art) in a rural setting, no computers allowed. 
+						The event immediately gained a cult status within the community and I am still regularly asked when the next one will be organised. :)
+					</p>
+					<p>
+						As the host I also assumed the responsibilities of web admin and created the event websites myself, with the help of a graphic designer.
+					</p>
+					<p><img src="holder.js/100%x300" class='img-rounded img-modal' /></p>
 				</div>
 			</div>
 		</div>
