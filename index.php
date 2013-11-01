@@ -733,7 +733,7 @@ if (!empty($_GET['portfolio']) && $_GET['portfolio']=='true') { ?>
     <![endif]-->
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="assets/js/holder.js"></script>
-	<script src="assets/js/jquery.nailthumb.1.1.js"></script>
+	<script src="assets/js/jquery.nailthumb.1.1-xiple.js"></script>
     
     <script src="assets/js/jquery.isotope.min.js"></script>
 	
