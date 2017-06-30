@@ -2,7 +2,6 @@
 
 @import url("../../../bootstrap/css/less/bootstrap.less");
 @import "../../../bootstrap/css/less/elements.less"; 
-//@import "./jquery.nailthumb.less";
 @import "./xiple-curri-vars.less";
 
 
@@ -29,16 +28,16 @@ body {
 h2 {
     color:@gray;
     margin:48px 0 24px 0;
-    
+
     &:before {
         content:"";
         width:@curri-heading-motif-size;
         height:@curri-heading-motif-size;
-        .border-radius(@curri-heading-motif-size/2, @curri-heading-motif-size/2, 
+        .border-radius(@curri-heading-motif-size/2, @curri-heading-motif-size/2,
                         @curri-heading-motif-size/2, @curri-heading-motif-size/2);
         background-color:@curri-brand-primary;
-        
-        z-index: 10;    
+
+        z-index: 10;
         position:absolute;
         margin-left:@curri-heading-motif-size*(-1)-16px;
         @media print {
@@ -68,17 +67,17 @@ ul {
         font-size:@font-size-base-print;
     	margin: 0cm !important;
     }
-    
+
     @page {
         margin: 4cm 3cm 3cm 3cm;
         orphans:14;
         widows:14;
     }
-    
+
 	a[href]:after {
 	    content: none !important;
 	}
-	
+
     .container-pagebreakafter {
         page-break-after:always;
         margin-top:2em;
@@ -90,18 +89,18 @@ ul {
 		width:100%;
 	}
     .container-wide {max-width:768px !important; width:90%;}
-    
+
     h1 {font-size:@font-size-base-print*3.0;}
     h2 {font-size:@font-size-base-print*2.0;margin:24px 0;}
     h3 {font-size:@font-size-base-print*1.5;}
-    
+
     hr {display:none;}
-    
+
     .curri-header-logo {margin:24px 0 6px 0;}
     .curri-header-logo img {display:none;}
-    
+
     .curri-statement {padding:24px 42px !important;font-size:1.6em; line-height:1.6em;}
-    
+
     .curri-contactdetails {
         // FIXME not working
         dd {margin-bottom:1em !important;}
@@ -129,7 +128,7 @@ ul {
 	  padding-left:  (@grid-gutter-width / 2);
 	  padding-right: (@grid-gutter-width / 2);
 	}
-    
+
     .col-pr-1,
 	.col-pr-2,
 	.col-pr-3,
@@ -174,7 +173,7 @@ ul {
 .curri-header {
     .page-header;
     border:none;
-    @media only screen and (max-width:590px) { 
+    @media only screen and (max-width:590px) {
         text-align:center;
 	}
 	@media only screen and (max-width: 777px) {
@@ -187,28 +186,28 @@ ul {
 .curri-header-logo {
     width:@curri-header-logo-size;
     height:@curri-header-logo-size;
-    
+
     .border-radius(@curri-header-logo-size/2, @curri-header-logo-size/2, @curri-header-logo-size/2, @curri-header-logo-size/2);
     background-color:@curri-brand-primary;
-    
+
     font-family:@font-family-display-script;
     font-size:2em;
     color:#fff;
-    
+
     box-sizing:border-box;
 //    padding-top:(@curri-header-logo-size/2-22px);
     text-align:center;
-    
+
     img {
         margin: 8px 0 0 -6px;
     }
-	
+
 	@media only screen and (max-width:590px) {
 		margin:auto;
 		position:relative;
 		left:-6px;
 	}
-	
+
 	@media only screen and (min-width: 590px) and (max-width: 777px) {
         .pull-right;
         margin-top:		76px;
@@ -241,22 +240,22 @@ ul {
         padding:0;
         margin-bottom:12px;
     }
-    
-} 
+
+}
 
 .curri-mobile-nav {
     display:none;
-    
+
     @media only screen and (max-width:590px) {
         display:block;
-        
+
         .glyphicon {margin-right:6px;}
-        
+
         .dropdown-toggle {
             background-color:#eee;
             .drop-shadow(0, 1px, 3px, 0.2);
         }
-        
+
         .dropdown-menu {
             width:97%;
             position:relative;
@@ -301,9 +300,9 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     overflow:visible !important;
-    
+
     @card-base-width:120px;
-    
+
     .card {
         height:@card-base-width;
         width:@card-base-width;
@@ -313,7 +312,7 @@ ul {
         .bordered();
         text-align:center;
         overflow:hidden;
-        
+
         @media screen {
             .popover-contents {
                 display:none;
@@ -322,7 +321,7 @@ ul {
         .thumbcontainer {
             .thumbnail();
         }
-        
+
     }
     .card-normal {
         width:@card-base-width;
@@ -339,9 +338,6 @@ ul {
         height:@card-base-width*2;
         width:@card-base-width*2;
     }
-    
+
     .img-modal { width:100%;}
 }
-
-
-
