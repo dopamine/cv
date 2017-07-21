@@ -15,5 +15,6 @@ ehthumbs.db
 Thumbs.db
 
 
-# local project docs #
+# content and project docs #
 docs*
+content*
