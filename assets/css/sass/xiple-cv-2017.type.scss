@@ -1,0 +1,89 @@
+
+body {
+  // font-family: 'Montserrat Subrayada', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Nunito', sans-serif;
+
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+
+  font-family: Nunito;
+  font-weight: 300;
+  font-size: 20px;
+  color: #322A33;
+  line-height: 32px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family:"Montserrat", sans-serif;
+}
+
+h1.display {
+  /* Display: */
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 60px;
+  color: #000000;
+  line-height: 80px;
+}
+
+h1 {
+  /* Heading 1: */
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+  line-height: 56px;
+}
+
+h2 {
+  /* Heading 2: */
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+  line-height: 48px;
+}
+
+h3 {/* Heading 3: */
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  line-height: 32px;
+}
+
+small {
+  /* Footnote: */
+  font-family: Nunito;
+  font-weight: 200;
+  font-size: 18px;
+  color: #6F6F77;
+  line-height: 32px;
+}
+
+a {
+  /* Link - inline: */
+  font-family: Nunito;
+  font-weight: 300;
+  font-size: 20px;
+  color: #F55F40;
+  line-height: 32px;
+  text-decoration:underline;
+}
+a:hover {
+  color:#F38800;
+}
+
+a.action {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F55F40;
+}
+
+blockquote {
+  /* Mauris et erat posue: */
+  font-family: MontserratSubrayada-Bold;
+  font-size: 48px;
+  color: #000000;
+}

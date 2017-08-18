@@ -2,13 +2,12 @@
 
 @import "./xiple-cv-2017.vars.scss";
 @import "./xiple-cv-2017.grids.scss";
-
-body {
-  font:14px Arial, sans-serif;
-}
+@import "./xiple-cv-2017.type.scss";
 
 
 
 
 .job-detail { display:none; }
 .job-detail-show { display:block;}
+
+// Navigation
