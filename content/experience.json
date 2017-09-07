@@ -1,13 +1,13 @@
 {
 	"job-item": [
 		{
-			"job-duration": "July 2016 – present",
+			"job-duration": "since July 2016",
 			"job-title": "Designer",
 			"job-company": "Potato",
 			"job-project": []
 		},
 		{
-			"job-duration": "February 2014 – June 2016",
+			"job-duration": "June 2016   February 2014",
 			"job-title": "User Experience Designer",
 			"job-company": "Tesco Bank",
 			"job-description": "I was lucky to be involved in the digital transformation of Tesco Bank's brochureware website from day one. I worked as the lead Designer on several business-critical projects, delivering e2e high-performing CMS-driven brochureware journeys.",
@@ -15,14 +15,14 @@
 			"job-project": []
 		},
 		{
-			"job-duration": "November 2010 – February 2014",
+			"job-duration": "February 2014   November 2010",
 			"job-title": "IT Consultant",
 			"job-company": "Sky Customer Business Systems via Comet Global Consulting",
 			"job-description": "My role and responsibilities in Comet have constantly evolved and grown from the day I joined the company. In just 18 months I became one of their key resources on the BSkyB account, and my work with this client has created a number of new opportunities for Comet to engage in new areas of Sky's Technology Department.",
 			"job-project": []
 		},
 		{
-			"job-duration": "May 2008 – September 2008",
+			"job-duration": "May 2008    September 2008",
 			"job-title": "IT Analyst Intern",
 			"job-company": "Morgan Stanley",
 			"job-description": "My task was to implement a TSQL code parser and graph analysis tool to automate code analysis tasks\tin the Stock-Loan Team.",
@@ -30,7 +30,7 @@
 			"job-project": []
 		},
 		{
-			"job-duration": "April 2007 – December 2007",
+			"job-duration": "April 2007   December 2007",
 			"job-title": "New Media Research Assistant",
 			"job-company": "Kitchen Budapest",
 			"job-description": "I was responsible for creating IT solutions for media artists working in project teams for Kitchen Budapest's big launch show and initial projects. ",
