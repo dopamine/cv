@@ -12,7 +12,11 @@
 
 .job-item {
   position:relative;
-  padding-top:1em;
+  padding:1em 0;
+}
+.job-item:hover {
+  background-color:#EDF1F4;
+  cursor:pointer;
 }
 
 .job-item:before {
@@ -27,8 +31,27 @@
 
 }
 
-.job-detail { display:none; }
-.job-detail-show { display:block;}
+.job-item:hover:after {
+  content:" ";
+  position:absolute;
+  bottom:-22px;
+  right:50%;
+  display:block;
+  width:40px;
+  height:40px;
+  border-radius:100%;
+
+  background:url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRDVEOUUwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgICA8cGF0aCBkPSJNNy40MSA3Ljg0TDEyIDEyLjQybDQuNTktNC41OEwxOCA5LjI1bC02IDYtNi02eiIvPg0KICAgIDxwYXRoIGQ9Ik0wLS43NWgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPg0KPC9zdmc+");
+  background-size: 32px;
+  background-position: 4px 6px;
+  background-color: #EDF1F4;
+}
+.job-item-verbose:hover:after {
+  transform:rotate(180deg);
+}
+
+.job-verbose { display:none; }
+.job-item-verbose .job-verbose { display:block;}
 
 .job-start-date {
   display:block;
