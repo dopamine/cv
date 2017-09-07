@@ -5,9 +5,44 @@
 @import "./xiple-cv-2017.type.scss";
 
 
+.now {
+  width:58px;
+  text-align:center;
+}
 
+.job-item {
+  position:relative;
+  padding-top:1em;
+}
+
+.job-item:before {
+  content:" ";
+  display:block;
+  position:absolute;
+  left:26px;
+  top:0px;
+  height:100%;
+  width:6px;
+  background-color:#000;
+
+}
 
 .job-detail { display:none; }
 .job-detail-show { display:block;}
+
+.job-start-date {
+  display:block;
+}
+.job-start-date:before {
+  content:" ";
+  display:inline-block;
+  background-color:#C8DCEB;
+  border:6px solid #fff;
+  width:.75em;
+  height:.75em;
+  border-radius:100%;
+  position:absolute;
+  left: 16px;
+}
 
 // Navigation
