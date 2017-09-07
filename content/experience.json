@@ -13,7 +13,7 @@
 			"job-title": "User Experience Designer",
 			"job-company": "Tesco Bank",
 			"job-description": "I was lucky to be involved in the digital transformation of Tesco Bank's brochureware website from day one. I worked as the lead Designer on several business-critical projects, delivering e2e high-performing CMS-driven brochureware journeys.",
-			"job-verbose": "<p><font color=\"#333333\" face=\"Rosario, sans-serif\">My day-to-day work involved producing:</font></p><ul style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; padding-left: 0px; color: rgb(51, 51, 51); font-family: Rosario, sans-serif; background-color: rgb(255, 255, 255);\"><li style=\"box-sizing: border-box;\">IAs, journey maps and page frameworks</li><li style=\"box-sizing: border-box;\">Wireframes and interactive prototypes</li><li style=\"box-sizing: border-box;\">User testing (online, usability)</li><li style=\"box-sizing: border-box;\">Visual/UI design of new CMS widgets and components</li><li style=\"box-sizing: border-box;\">Detailed interaction specs (including providing CSS/JavaScript prototypes to illustrate interaction patterns, animations and transitions)</li></ul>",
+			"job-verbose": "<p>My day-to-day work involved producing:</p><ul><li>IAs, journey maps and page frameworks</li><li>Wireframes and interactive prototypes</li><li>User testing (online, usability)</li><li>Visual/UI design of new CMS widgets and components</li><li>Detailed interaction specs (including providing CSS/JavaScript prototypes to illustrate interaction patterns, animations and transitions)</li></ul>",
 			"job-project": [],
 			"job-logo": "<p><img src=\"content/job-logos/logo-tb.png\" alt=\"Tesco Bank logo\" width=\"120\" height=\"22\" data-mce-src=\"content/job-logos/logo-tb.png\"></p>",
 			"job-start-date": "February 2014"
@@ -32,7 +32,7 @@
 			"job-title": "IT Analyst Intern",
 			"job-company": "Morgan Stanley",
 			"job-description": "My task was to implement a TSQL code parser and graph analysis tool to automate code analysis tasks\tin the Stock-Loan Team.",
-			"job-verbose": "<span style=\"color: rgb(51, 51, 51); font-family: Rosario, sans-serif; background-color: rgb(255, 255, 255);\">The project was selected as one of the 12 candidates to represent the Budapest IT Department on the company-wide MS Tech Expo 2008 in London that year, and presented to the Heads of Department.</span><br data-mce-bogus=\"1\">",
+			"job-verbose": "The project was selected as one of the 12 candidates to represent the Budapest IT Department on the company-wide MS Tech Expo 2008 in London that year, and presented to the Heads of Department.",
 			"job-project": [],
 			"job-logo": "<p><img src=\"content/job-logos/logo-ms.png\" alt=\"Morgan Stanley logo\" width=\"141\" height=\"20\" data-mce-src=\"content/job-logos/logo-ms.png\"></p>",
 			"job-start-date": "May 2008"
@@ -43,7 +43,7 @@
 			"job-company": "Kitchen Budapest",
 			"job-description": "I was responsible for creating IT solutions for media artists working in project teams for Kitchen Budapest's big launch show and initial projects. ",
 			"job-logo": "<p><img src=\"content/job-logos/logo-kitchen.png\" alt=\"Kitchen Budapest logo\" width=\"120\" height=\"37\" data-mce-src=\"content/job-logos/logo-kitchen.png\">&nbsp;</p>",
-			"job-verbose": "<span style=\"color: rgb(51, 51, 51); font-family: Rosario, sans-serif; background-color: rgb(255, 255, 255);\">I worked as part of an international team of 20 on various new media projects including circuit hacking, Arduino, procedural graphics and Processing, web development and graphic design tasks. I even worked with the very first prototype of&nbsp;</span><a href=\"http://prezi.com/\" style=\"box-sizing: border-box; color: rgb(66, 139, 202); text-decoration-line: none; font-family: Rosario, sans-serif; background-color: rgb(255, 255, 255);\">prezi.com</a><span style=\"color: rgb(51, 51, 51); font-family: Rosario, sans-serif; background-color: rgb(255, 255, 255);\">!</span><br data-mce-bogus=\"1\">",
+			"job-verbose": "I worked as part of an international team of 20 on various new media projects including circuit hacking, Arduino, procedural graphics and Processing, web development and graphic design tasks. I even worked with the very first prototype of&nbsp;<a href=\"http://prezi.com/\">prezi.com</a>!",
 			"job-project": [],
 			"job-start-date": "April 2007"
 		}
