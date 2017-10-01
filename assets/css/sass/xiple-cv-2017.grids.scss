@@ -1,6 +1,4 @@
-body {
-  margin: 32px;
-}
+// main: ./xiple-cv-2017.scss
 
 .row {
   display: flex;
@@ -44,4 +42,33 @@ body {
   .flex-grid {
     display: block;
   }
+}
+
+@media screen and (max-width: 800px) {
+  header { padding: 64px 24px 128px 24px !important; }
+  section { padding: 64px 24px !important; }
+  .row {
+    display: block;
+  }
+  .col-1,.col-2,.col-3,.col-4,
+  .col-5,.col-6,.col-7,.col-8,
+  .col-9,.col-10,.col-11, .col {
+    width:100%;
+    display: block;
+  }
+  .offset-1,
+  .offset-2,
+  .offset-3,
+  .offset-4,
+  .offset-5,
+  .offset-6,
+  .offset-7,
+  .offset-8,
+  .offset-9,
+  .offset-10,
+  .offset-11 { margin:0;}
+}
+@media screen and (max-width: 600px) {
+  header { padding: 64px 24px 128px 24px !important; }
+  section { padding: 12px 24px 64px 24px !important; }
 }

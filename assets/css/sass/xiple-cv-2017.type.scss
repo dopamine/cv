@@ -1,9 +1,9 @@
+// main: ./xiple-cv-2017.scss
+
 html {
   font-size: 18px;
 }
 body {
-  // font-family: 'Montserrat Subrayada', sans-serif;
-  // font-family: 'Montserrat', sans-serif;
   // font-family: 'Nunito', sans-serif;
 
   -moz-osx-font-smoothing: antialiased;
@@ -24,6 +24,19 @@ h1,h2,h3,h4,h5 {
   font-size: 4rem;
   color: #000000;
   line-height: 5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .display {
+    font-size:3rem;
+    line-height:4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .display {
+    font-size:2rem;
+    line-height:3rem;
+  }
 }
 
 h1 {
@@ -77,7 +90,7 @@ a.action {
 
 blockquote {
   /* Mauris et erat posue: */
-  font-family: MontserratSubrayada-Bold;
+  font-weight: 200;
   font-size: 3rem;
   line-height:2.3rem;
   color: #000000;
