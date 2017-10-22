@@ -3,10 +3,11 @@
 		{
 			"job-duration": "to present",
 			"job-title": "Designer",
-			"job-company": "Potato, main client: Google",
+			"job-company": "Potato",
 			"job-project": [],
 			"job-logo": "<p><img src=\"content/job-logos/logo-potato.png\" alt=\"Potato logo\" width=\"108\" height=\"50\" data-mce-src=\"content/job-logos/logo-potato.png\">&nbsp;</p>",
-			"job-start-date": "July 2016"
+			"job-start-date": "July 2016",
+			"job-description": "Main client: Google"
 		},
 		{
 			"job-duration": "2 years 3 months",
@@ -21,8 +22,8 @@
 		{
 			"job-duration": "3 years 6 months",
 			"job-title": "IT Consultant",
-			"job-company": "Comet Global Consulting, main client: BSkyB",
-			"job-description": "My role and responsibilities in Comet have constantly evolved and grown from the day I joined the company. In just 18 months I became one of their key resources on the BSkyB account, and my work with this client has created a number of new opportunities for Comet to engage in new areas of Sky's Technology Department.",
+			"job-company": "Comet Global Consulting",
+			"job-description": "Main client: Sky\n\nMy role and responsibilities in Comet have constantly evolved and grown from the day I joined the company. In just 18 months I became one of their key resources on the BSkyB account, and my work with this client has created a number of new opportunities for Comet to engage in new areas of Sky's Technology Department.",
 			"job-project": [],
 			"job-logo": "<p><img src=\"content/job-logos/logo-comet.png\" alt=\"Comet GC logo\" width=\"168\" height=\"50\" data-mce-src=\"content/job-logos/logo-comet.png\">&nbsp;</p>",
 			"job-start-date": "November 2010"
@@ -59,7 +60,7 @@
 			"job-start-date": "September 2006",
 			"job-duration": "4 years",
 			"job-title": "BSc Computer Science",
-			"job-company": "Péter Pázmány Catholic University: Faculty of Information Technology",
+			"job-company": "Péter Pázmány Catholic University",
 			"job-project": [],
 			"job-logo": "<p><img src=\"http://via.placeholder.com/120x60\" alt=\"Placeholder\" width=\"120\" height=\"60\"></p>"
 		}
