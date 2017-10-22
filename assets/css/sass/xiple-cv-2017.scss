@@ -4,6 +4,8 @@
 @import "./xiple-cv-2017.grids.scss";
 @import "./xiple-cv-2017.type.scss";
 
+@import "./xiple-cv-2017.jobs.scss";
+
 
 body {
   margin:0px;
@@ -25,6 +27,34 @@ section {
   width:100%;
   z-index:0;
 }
+
+.whitebox {
+  background:#fff;
+  padding:3px 12px;
+}
+
+.icon-container {
+  width:80px;
+  height:80px;
+  background-color:#fff;
+  border-radius:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backlink {position:relative;margin-left:24px;}
+.backlink::before {
+  content:" ";
+  position:absolute;
+  top:0;
+  left:-32px;
+  display: block;
+  width:24px;
+  height:24px;
+  background:url('data:image/svg+xml;base64,  PHN2ZyBmaWxsPSIjRjg4Rjc5IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+DQogICAgPHBhdGggZD0iTTIwIDExSDcuODNsNS41OS01LjU5TDEyIDRsLTggOCA4IDggMS40MS0xLjQxTDcuODMgMTNIMjB2LTJ6Ii8+DQo8L3N2Zz4=');
+}
+
 // header
 
 .header {
@@ -201,12 +231,7 @@ section {
 
 // decorative fields and lines
 
-.whitebox {
-  background:#fff;
-  padding:0 12px;
-}
-
-.field, .field-half, .halfdot, .lines {
+.field, .field-half, .dot, .lines {
   position:relative;
   z-index:10;
 }
@@ -239,10 +264,10 @@ section {
   transform: skew(-6deg, -3.5deg);
 }
 
-.halfdot:after {
+.dot:after {
   content:" ";
   display:block;
-  width:50%;
+  width:100%;
   height:100%;
   position:absolute;
   top:-0px;
@@ -251,6 +276,14 @@ section {
   background:url('../img/dot-pattern.png');
 
   transform:skew(-6deg, -3.5deg);
+}
+
+.dot.halfdot::after {
+  width:50%;
+}
+
+.dot.quarterdot::after {
+  width:25%;
 }
 
 .lines::before {
@@ -293,5 +326,15 @@ section {
 }
 .lines.lines-left::after {
   bottom:0px;
+  left:-50px;
+}
+
+.lines.lines-top::before {
+  top:-50px;
+  left:5%;
+}
+
+.lines.lines-top::after {
+  top:30px;
   left:-50px;
 }

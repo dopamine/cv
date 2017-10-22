@@ -13,6 +13,8 @@ body {
   font-weight: 300;
   color: #322A33;
   line-height: 1.75rem;
+
+  overflow-x:hidden;
 }
 
 h1,h2,h3,h4,h5 {
@@ -75,17 +77,16 @@ a {
   /* Link - inline: */
   font-family: Nunito;
   font-weight: 300;
-  color: #F55F40;
+  color: $coral-med;
   text-decoration:underline;
 }
 a:hover {
-  color:#F38800;
+  color:$coral-dark;
 }
 
 a.action {
   text-transform: uppercase;
   text-decoration: none;
-  color: #F55F40;
 }
 
 blockquote {
@@ -94,4 +95,8 @@ blockquote {
   font-size: 3rem;
   line-height:2.3rem;
   color: #000000;
+}
+
+dt {
+  font-weight:500;
 }
