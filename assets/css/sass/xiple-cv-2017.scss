@@ -1,10 +1,13 @@
 // sass main
 
-@import "./xiple-cv-2017.vars.scss";
-@import "./xiple-cv-2017.grids.scss";
-@import "./xiple-cv-2017.type.scss";
+@import "./vars.scss";
+@import "./grids.scss";
+@import "./type.scss";
 
-@import "./xiple-cv-2017.jobs.scss";
+@import "./decor.scss";
+
+@import "./case-studies.scss";
+@import "./jobs.scss";
 
 
 body {
@@ -231,161 +234,4 @@ section {
   color:$navy-dark !important;
   font-weight: bold;
   z-index:50;
-}
-
-// decorative fields and lines
-
-.field, .field-half, .dot, .lines {
-  position:relative;
-  z-index:10;
-}
-
-.field:before {
-  content:" ";
-  display:block;
-  width:100%;
-  height:100%;
-  position:absolute;
-  top:-30px;
-  left:0;
-  z-index:-10;
-
-  background-color:$grey-6;
-  transform:skewY(-3.5deg);
-}
-
-.field-half:before {
-  content:" ";
-  display:block;
-  width: 40%;
-  height: 100%;
-
-  background-color:$blue-light;
-  transform: skew(-6deg, -3.5deg);
-}
-
-.field-left::before {
-  top: -30px;
-  left: -30px;
-  height:120%;
-}
-
-.field-right::before {
-  top: -30px;
-  right: -30px;
-  left:auto;
-}
-
-.dot:after {
-  content:" ";
-  display:block;
-  width:100%;
-  height:100%;
-  position:absolute;
-  top:-0px;
-  right:60px;
-  z-index:-9;
-  background:url('../img/dot-pattern.png');
-
-  transform:skew(-6deg, -3.5deg);
-}
-
-.dot.halfdot::after {
-  width:50%;
-}
-
-.dot.quarterdot::after {
-  width:25%;
-}
-
-.lines::before {
-  border-left:1px solid $grey-5;
-  border-right:1px solid $grey-5;
-  content:" ";
-  display:block;
-  width:50px;
-  height:70%;
-  transform:skew(6deg, 6deg);
-
-  position:absolute;
-  z-index:-8;
-}
-
-.lines::after {
-  border-top:1px solid $grey-5;
-  content:" ";
-  display:block;
-  width:70%;
-  height:50px;
-  transform:skew(-6deg, -3.5deg);
-
-  position:absolute;
-  z-index:-8;
-}
-
-
-@media screen and (max-width: 1000px) {
-  .lines::before {left:-10px !important;}
-  .lines::after {left:-10px !important;}
-}
-
-@media screen and (max-width: 800px) {
-  .lines::before {left:-10% !important;}
-  .lines::after {left:-10px !important;}
-}
-
-.lines.lines-center::before {
-  bottom:0px;
-  left:50%;
-}
-.lines.lines-center::after {
-  bottom:20px;
-  left:80px;
-}
-
-.lines.lines-left::before {
-  bottom:-5%;
-  left:5%;
-}
-.lines.lines-left::after {
-  bottom:0px;
-  left:-50px;
-}
-
-.lines.lines-top::before {
-  top:-50px;
-  left:5%;
-}
-
-.lines.lines-top::after {
-  top:30px;
-  left:-50px;
-}
-
-.bars {position:relative;}
-
-.bars::before,
-.bars::after {
-  content:" ";
-  display:block;
-  width:100%;
-  position:absolute;
-  bottom:-30px;
-  left:0;
-  z-index:10;
-
-  transform:skewY(-3.5deg);
-}
-
-.bars.bar-dark::before {
-  z-index:1;
-  background-color: $navy-dark;
-  height:80px;
-  bottom:-27px;
-}
-.bars.bar-dot::after {
-  z-index:2;
-  background:url('../img/dot-pattern.png');
-  background-color: #fff;
-  height:60px;
 }
