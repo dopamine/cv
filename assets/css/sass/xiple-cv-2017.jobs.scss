@@ -15,10 +15,10 @@
   content:" ";
   display:block;
   position:absolute;
-  left:26px;
+  left:28px;
   top:0px;
   height:100%;
-  width:6px;
+  width:2px;
   background-color:#000;
 
 }
@@ -42,4 +42,34 @@
   text-align: center;
   position:relative;
   top:-1em;
+}
+
+
+
+
+/// responsive
+
+
+@media screen and (max-width: 800px) {
+  .job-item::before,
+  .job-start-date::before {display:none;}
+
+
+  .job-start-date,
+  .job-duration {
+    display:inline-block;
+  }
+  .job-duration::before {
+    content: "– ";
+  }
+
+  .job-logo {
+    position:auto;
+    margin-top:64px;
+  }
+  .job-logo::after {
+    content: "–";
+    width:100%;
+    text-align:center;
+  }
 }
