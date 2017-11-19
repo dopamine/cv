@@ -1,0 +1,81 @@
+// main: ./xiple-cv-2017.scss
+// Particles
+
+
+.particles {
+  width: 40%;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  height: 200px;
+  z-index: 300;
+}
+
+.p-home {
+  transform:scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// SHARED
+// see original at https://codepen.io/dopamine/pen/JOYjyK?editors=0100
+
+.particle {
+  display:inline-block;
+  position:relative;
+  margin-left:(-1)*random(80)+px;
+}
+
+@keyframes jiggle {
+  $phase : random(5);
+  $t : random(10)+deg;
+
+  0%  { transform:rotate(if($phase <  5, $t, 0));}
+  10% { transform:rotate(if($phase < 10, $t, 0));}
+  20% { transform:rotate(if($phase < 20, $t, 0));}
+  30% { transform:rotate(if($phase < 30, $t, 0));}
+  40% { transform:rotate(if($phase < 40, -$t, 0));}
+  50% { transform:rotate(if($phase < 50, $t, 0));}
+  60% { transform:rotate(if($phase < 60, -$t, 0));}
+  70% { transform:rotate(if($phase < 70, $t, 0));}
+  80% { transform:rotate(if($phase < 80, -$t, 0));}
+  90% { transform:rotate(if($phase < 90, $t, 0));}
+  100% { transform:rotate(0);}
+}
+
+@keyframes pulse {
+  $phase : random(10);
+  $t : 1.1;
+
+  0% { transform:scale(1);}
+  10% { transform:scale(if($phase < 10, $t, 0));}
+  20% { transform:scale(if($phase < 20, $t, 0));}
+  30% { transform:scale(if($phase < 30, $t, 0));}
+  40% { transform:scale(if($phase < 40, $t, 0));}
+  50% { transform:scale(if($phase < 50, $t, 0));}
+  60% { transform:scale(if($phase < 60, $t, 0));}
+  70% { transform:scale(if($phase < 70, $t, 0));}
+  80% { transform:scale(if($phase < 80, $t, 0));}
+  90% { transform:scale(if($phase < 90, $t, 0));}
+  100% { transform:scale(1);}
+}
+
+@keyframes loadpop {
+  0% {transform : scale(0);}
+  100% {transform : scale(1);}
+}
+.loadpop {
+  animation:0.3s ease-in loadpop;
+}

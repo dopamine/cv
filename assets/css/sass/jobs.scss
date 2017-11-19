@@ -1,4 +1,15 @@
 // main: ./xiple-cv-2017.scss
+
+@media screen and (min-width: 800px) {
+  ul {
+      padding-left:0;
+  }
+  ul li {
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 // Jobs
 
 .now {
@@ -51,6 +62,7 @@
 
 
 @media screen and (max-width: 800px) {
+  .now {display:none;}
   .job-item::before,
   .job-start-date::before {display:none;}
 

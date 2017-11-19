@@ -5,6 +5,7 @@
 @import "./type.scss";
 
 @import "./decor.scss";
+// @import "./particles.scss";
 
 @import "./case-studies.scss";
 @import "./jobs.scss";
@@ -98,6 +99,45 @@ section {
   background:url('../img/dot-pattern.png');
   background-color: #fff;
   height:60px;
+}
+
+.avatar {
+    z-index: 300;
+    position: absolute;
+    bottom: -34px;
+    right: 100px;
+    width: 240px;
+
+  img {width: 100%;}
+
+}
+
+@media screen and (max-width: 900px) {
+  .avatar {
+    bottom:0;
+    right:-34px;
+  }
+  .avatar img { width:90%; }
+  .header .display,
+  .header p {
+    width:70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .avatar {
+    width:100%;
+    position:relative;
+    margin-bottom:32px;
+    left:0;
+  }
+  .avatar img { width:50%; }
+  .header .display,
+  .header p {
+    width:100%;
+    text-align:center;
+  }
+
 }
 
 // .work
