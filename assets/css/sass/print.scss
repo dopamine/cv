@@ -1,0 +1,10 @@
+// main: ./xiple-cv-2017.scss
+// Print
+
+@media print {
+  .homelink {display:none;}
+
+  .pagebreak-after{page-break-after:always;}
+  .pagebreak-before{page-break-before:always;}
+
+}

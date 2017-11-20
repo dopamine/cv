@@ -10,6 +10,8 @@
 @import "./case-studies.scss";
 @import "./jobs.scss";
 
+@import "./print.scss";
+
 
 body {
   margin:0px;
@@ -38,7 +40,7 @@ section {
 
 .whitebox {
   background:#fff;
-  padding:3px 12px;
+  padding:3px 0;
 }
 
 .icon-container {
@@ -274,4 +276,38 @@ section {
   color:$navy-dark !important;
   font-weight: bold;
   z-index:50;
+}
+
+
+.footer {
+  background:$navy-dark;
+  position: relative;
+  color:$grey-7;
+  padding-top:88px !important;
+  text-align:right;
+}
+
+.footer::before {
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  display: block;
+  content: " ";
+  background:$navy-dark;
+
+    z-index:-10;
+
+    transform:skewY(-3.5deg);
+}
+.footer::after {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  display: block;
+  content: " ";
+  background:$grey-2;
 }
