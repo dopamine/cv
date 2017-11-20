@@ -23,7 +23,7 @@
 			"job-duration": "3 years 6 months",
 			"job-title": "IT Consultant",
 			"job-company": "Comet Global Consulting",
-			"job-description": "My role and responsibilities in Comet have constantly evolved and grown from the day I joined the company. In just 18 months I became one of their key resources on the BSkyB account, and my work with this client has created a number of new opportunities for Comet to engage in new areas of Sky's Technology Department.",
+			"job-description": "My role and responsibilities in Comet have constantly evolved and grown from the day I joined the company. In just 18 months became one of their key resources on the BSkyB account and I was given an offshore team of 7. Additionally, my work with the client created a number of new opportunities for Comet to engage in new areas of Sky's Technology Department.",
 			"job-project": [],
 			"job-logo": "<p><img src=\"content/job-logos/logo-comet.png\" alt=\"Comet GC logo\" width=\"168\" height=\"50\" data-mce-src=\"content/job-logos/logo-comet.png\">&nbsp;</p>",
 			"job-start-date": "November 2010"
@@ -34,7 +34,8 @@
 			"job-title": "Erasmus scholarship",
 			"job-company": "University of Seville",
 			"job-project": [],
-			"job-logo": "<p><img src=\"http://via.placeholder.com/120x60\" alt=\"placeholder\" width=\"120\" height=\"60\"></p>"
+			"job-logo": "<p>&nbsp;Seville, Spain</p>",
+			"job-description": "<br data-mce-bogus=\"1\">"
 		},
 		{
 			"job-duration": "4 months",
@@ -62,7 +63,7 @@
 			"job-title": "BSc Computer Science",
 			"job-company": "Péter Pázmány Catholic University",
 			"job-project": [],
-			"job-logo": "<p><img src=\"http://via.placeholder.com/120x60\" alt=\"Placeholder\" width=\"120\" height=\"60\"></p>"
+			"job-logo": "<p>Budapest, Hungary&nbsp;</p>"
 		}
 	]
 }
