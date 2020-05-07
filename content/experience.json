@@ -1,11 +1,18 @@
 {
 	"job-item": [
 		{
-			"job-start-date": "February 2018",
+			"job-start-date": "September 2018",
 			"job-duration": "to present",
+			"job-title": "Product Designer, Tax",
+			"job-company": "FreeAgent",
+			"job-description": "<p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: Helvetica; color: rgb(0, 0, 0);\">Currently I’m the lead designer on FreeAgent’s most high-context stream, in charge of workflows and user journeys relating to the world of accounting and tax. I enjoy the challenge of crafting understandable and reassuring experiences for our customers within the strict constraints and complexities placed upon us by regulations and legislation, ultimately helping people feel in control of their finances and tax affairs.</p><p class=\"p2\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: Helvetica; min-height: 22px; color: rgb(0, 0, 0);\"><br></p><p class=\"p1\" style=\"margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: Helvetica; color: rgb(0, 0, 0);\">I worked on many gnarly but exciting projects since I started here, but my most significant achievement so far must be streamlining and modernising key tax journeys that have seen a 500% increase in adoption driven by regulatory change, while also designing the adoption flows themselves. As a direct result of my work, we were able to keep up with this incredible uplift in engagement without any negative impact to our Support team’s workload.</p>"
+		},
+		{
+			"job-start-date": "February 2018",
+			"job-duration": "7 months",
 			"job-title": "Designer, Interaction",
 			"job-company": "Craneware",
-			"job-description": "At Craneware I'm leading on the digital transformation and redesign project of our biggest revenue generating product.&nbsp;&nbsp;<br>&nbsp;<br>My involvement so far has taken me to touring client sites in the US for a week, conducting user research and early discovery, then bringing back our learnings and evangelising it across the company.&nbsp;<br><br>Right now I'm in the thick of it with my team to establish Craneware's basic standards for digital, as well as kicking off the redesign process, supporting both an offshore and two Edinburgh development teams in the process.<br data-mce-bogus=\"1\">",
+			"job-description": "In my short time at Craneware, I kicked off and led the digital transformation and redesign project of their flagship product, supporting three development teams in the process. <br><br>I established the deisgn strategy for the redesign effort and helped influence the product strategy by evangelising the user needs I uncovered during on-the-ground user testing in US hospitals. <br><br>In addition to this, I also I broke ground establishing their early standards and pattern libraries for digital design.&nbsp;",
 			"job-logo": "<p><img src=\"content/job-logos/logo-craneware.png\" alt=\"Craneware logo\" width=\"180\" height=\"35\"></p>"
 		},
 		{
