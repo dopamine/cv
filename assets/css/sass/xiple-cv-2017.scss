@@ -339,6 +339,7 @@ section {
 .case-study.locked .badge span.locked-request {
   position:relative;
   left:-6px;
+  padding-left:12px;
   color:$navy-dark !important;
   font-weight: bold;
   z-index:50;
