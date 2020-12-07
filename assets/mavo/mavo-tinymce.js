@@ -3,7 +3,7 @@
 var parser, serializer;
 
 Mavo.Plugins.register("tinymce", {
-	ready: $.include(self.tinymce, "https://cdn.tinymce.com/4/tinymce.min.js").then(() => {
+	ready: $.include(self.tinymce, "https://cdn.tiny.cloud/1/gpvzoe74q3gz7516j8d5e5log6h0gv4ao5oeco8m34ywybnd/tinymce/5/tinymce.min.js").then(() => {
 		parser = new tinymce.html.DomParser();
 		serializer = new tinymce.html.Serializer();
 	})
